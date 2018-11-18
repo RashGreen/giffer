@@ -21,7 +21,7 @@ $(document).ready(function(){
         
         // Then I need to loop through the choices and have them display to the page
         for (let i = 0; i < giphers.length; i++) {
-            var a = $("<button>");
+            var a = $("<button class='text-center'>");
             a.addClass(classToAdd);
             a.attr("data-type", arrayToUse[i]);
             a.text(arrayToUse[i]);
